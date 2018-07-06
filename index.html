@@ -1,53 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <title>D.Luu | Home</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
-        crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="asset/style.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <title>D.Luu | Home</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.5/css/mdb.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Roboto+Mono|Roboto+Slab" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="asset/css/style.css">
+    </head>
 
-<body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="index.html">David Luu</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
-            aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav navbar-right">
-                <a class="nav-item nav-link active" href="index.html">About
-                    <span class="sr-only">(current)</span>
-                </a>
-                <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-                <a class="nav-item nav-link" href="contact.html">Contact</a>
-            </div>
-        </div>
-    </nav>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-9">
-                <h1>About Me</h1>
-                <div class="row">
-                    <div class="col-md-9">
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo dolore sed autem eveniet voluptatibus
-                            ipsum cupiditate aperiam laudantium iste eos suscipit fuga beatae, quaerat omnis excepturi, laboriosam
-                            possimus aut blanditiis.</p>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top rgba-orange-slight">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="asset/img/logo.png" width="50" height="50" class="d-inline-block align-center" alt="">
+                    Luu Design</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav navbar-right">
+                        <a class="nav-item nav-link active" href="index.html">About
+                            <span class="sr-only">(current)</span>
+                        </a>
+                        <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+                        <a class="nav-item nav-link" href="contact.html">Contact</a>
                     </div>
                 </div>
             </div>
-            <div class="col-md-3">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Links</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </nav>
+        <!--Mask-->
+        <div id="intro" class="view">
+            <div class="mask rgba-stylish-strong">
+                <div class="container-fluid d-flex align-items-center justify-content-center h-100">
+                    <div class="row d-flex justify-content-center text-center">
+                        <div class="col-md-10">
+                            <!-- Heading -->
+                            <h2 class="display-4 font-weight-bold white-text pt-5 mb-2">Design Code</h2>
+                            <!-- Divider -->
+                            <hr class="hr-light">
+                            <!-- Description -->
+                            <h4 class="white-text my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti consequuntur.</h4>
+                            <button type="button" class="btn btn-outline-white">Read more
+                                <i class="zmdi zmdi-book ml-2"></i>
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-</body>
+        <!--/.Mask-->
+
+        <main>
+                <div class="mt-5">
+                    <div class="container">
+                        <section id="best-features" class="text-center">
+                            <h2 class="mb-5 font-weight-bold">Fundamentals</h2>
+                            <div class="row d-flex justify-content-center mb-4">
+                                <div class="col-md-8">
+                                    <p class="grey-text">Like with most necessities, our philosophy was "if you can't find what you're looking for, make it!" Our app stems from a lack of certain features involed with keeping track of things of value we buy. We wanted an app that could track purchases and attach data, such as receipts, warranty, and location, as well as be able tag items with a unique QR code.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4 mb-5">
+                                    <i class="zmdi zmdi-language-html5 zmdi-hc-4x orange-text"></i>
+                                    <h4 class="my-4 font-weight-bold">Log</h4>
+                                    <p class="grey-text">Log items and attach receipts, images, and other pertinent data to it.</p>
+                                </div>
+                                <div class="col-md-4 mb-1">
+                                    <i class="zmdi zmdi-language-css3 zmdi-hc-4x orange-text"></i>
+                                    <h4 class="my-4 font-weight-bold">Manage</h4>
+                                    <p class="grey-text">The app is capable of sorting through items and arranging it by categories.</p>
+                                </div>
+                                <div class="col-md-4 mb-1">
+                                    <i class="zmdi zmdi-language-javascript zmdi-hc-4x orange-text"></i>
+                                    <h4 class="my-4 font-weight-bold">Track</h4>
+                                    <p class="grey-text">Have the abilty to print tags for item(s) stored in boxes and geotag its location.</p>
+                                </div>
+                            </div>
+                        </section>
+                        <hr class="my-5">
+                        <section id="contact">
+                            <h2 class="mb-5 font-weight-bold text-center">Contact us</h2>
+                            <div class="row">
+                                <div class="col-lg-7 col-md-12">
+                                    <form class="p-5">
+                                        <div class="md-form form-sm">
+                                            <i class="zmdi zmdi-user prefix grey-text"></i>
+                                            <input type="text" id="contactName" class="form-control form-control-sm" placeholder="Your Name">
+                                        </div>
+                                        <div class="md-form form-sm">
+                                            <i class="zmdi zmdi-envelope prefix grey-text"></i>
+                                            <input type="text" id="contactEmail" class="form-control form-control-sm" placeholder="Your Email">
+                                        </div>
+                                        <div class="md-form form-sm">
+                                            <i class="zmdi zmdi-tag prefix grey-text"></i>
+                                            <input type="text" id="contactSubject" class="form-control form-control-sm" placeholder="Subject">
+                                        </div>
+                                        <div class="md-form form-sm">
+                                            <i class="zmdi zmdi-pencil prefix grey-text"></i>
+                                            <textarea id="contactMessage" class="md-textarea form-control form-control-sm" rows="3" placeholder="Your Message"></textarea>
+                                        </div>
+                                        <div class="text-center mt-4">
+                                            <button class="btn btn-primary">Send<i class="zmdi zmdi-paper-plane-o ml-1"></i>
+                                            </button>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="col-lg-5 col-md-12">
+                                    <div class="row text-center">
+                                        <div class="col-lg-4 col-md-12 mb-3"><p><i class="zmdi zmdi-map zmdi-hc-1x mr-2 grey-text"></i>Houston, TX</p>
+                                        </div>
+                                        <div class="col-lg-4 col-md-6 mb-3"><p><i class="zmdi zmdi-building zmdi-hc-1x mr-2 grey-text"></i>Mon - Fri, 8:00-5:00</p>
+                                        </div>
+                                        <div class="col-lg-4 col-md-6 mb-3"><p><i class="zmdi zmdi-phone zmdi-hc-1x mr-2 grey-text"></i>(713) 281-5551</p>
+                                        </div>
+                                    </div>
+                                    <div id="map-container" class="z-depth-1-half map-container mb-5" style="height: 400px"></div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </main>
+
+        <!-- JQuery, Popper and Bootstrap -->
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js" integrity="sha384-u/bQvRA/1bobcXlcEYpsEdFVK/vJs3+T+nXLsBYJthmdBuavHvAW6UsmqO2Gd/F9" crossorigin="anonymous"></script>
+        <!-- MDB core JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.5/js/mdb.min.js" integrity="sha256-IsnXQfMetjxrQkLrrhKx1vuUcEu8QF/IuAZVJAlOhwg=" crossorigin="anonymous"></script>
+        <script src="asset/js/app.js"></script>
+
+    </body>
 
 </html>

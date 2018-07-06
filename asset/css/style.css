@@ -1,0 +1,29 @@
+html, body {
+    font-family: 'Roboto Mono', monospace;
+    font-style: normal;
+    font-weight: 400;
+}
+
+html, body, #intro {
+    height: 100%;
+}
+
+#intro {
+    background: url("../img/ChasingSunrise3.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.navbar-right {
+    float: right;
+}
+
+.navbar.scrolling-navbar {
+	-webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+	-o-transition: background .5s ease-in-out,padding .5s ease-in-out;
+	transition: background .5s ease-in-out,padding .5s ease-in-out;
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
