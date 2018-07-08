@@ -8,11 +8,12 @@
         <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.5/css/mdb.min.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
         <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Roboto+Mono|Roboto+Slab" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.typekit.net/axr1ees.css">
         <link rel="stylesheet" type="text/css" href="asset/css/style.css">
     </head>
 
     <body>
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top rgba-orange-slight">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar rgba-orange-slight">
             <div class="container">
                 <a class="navbar-brand" href="index.html">
                     <img src="asset/img/logo.png" width="50" height="50" class="d-inline-block align-center" alt="">
@@ -23,11 +24,11 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav navbar-right">
-                        <a class="nav-item nav-link active" href="index.html">About
+                        <a class="nav-item nav-link active" href="#intro">About
                             <span class="sr-only">(current)</span>
                         </a>
                         <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-                        <a class="nav-item nav-link" href="contact.html">Contact</a>
+                        <a class="nav-item nav-link" href="#contact">Contact</a>
                     </div>
                 </div>
             </div>
@@ -36,14 +37,14 @@
         <div id="intro" class="view">
             <div class="mask rgba-stylish-strong">
                 <div class="container-fluid d-flex align-items-center justify-content-center h-100">
-                    <div class="row d-flex justify-content-center text-center">
+                    <div class="row d-flex justify-content-left text-left">
                         <div class="col-md-10">
                             <!-- Heading -->
                             <h2 class="display-4 font-weight-bold white-text pt-5 mb-2">Design Code</h2>
                             <!-- Divider -->
                             <hr class="hr-light">
                             <!-- Description -->
-                            <h4 class="white-text my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti consequuntur.</h4>
+                            <h4 class="white-text my-4">Learn code and create something beautiful, as nature intended.</h4>
                             <button type="button" class="btn btn-outline-white">Read more
                                 <i class="zmdi zmdi-book ml-2"></i>
                             </button>
@@ -61,24 +62,24 @@
                             <h2 class="mb-5 font-weight-bold">Fundamentals</h2>
                             <div class="row d-flex justify-content-center mb-4">
                                 <div class="col-md-8">
-                                    <p class="grey-text">Like with most necessities, our philosophy was "if you can't find what you're looking for, make it!" Our app stems from a lack of certain features involed with keeping track of things of value we buy. We wanted an app that could track purchases and attach data, such as receipts, warranty, and location, as well as be able tag items with a unique QR code.</p>
+                                    <p class="grey-text">As we learn more complex code, we should never forget the fundamental building block that it takes to build a web app. Keep polishing the skills we already have and build something better.</p>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-md-4 mb-5">
-                                    <i class="zmdi zmdi-language-html5 zmdi-hc-4x orange-text"></i>
-                                    <h4 class="my-4 font-weight-bold">Log</h4>
-                                    <p class="grey-text">Log items and attach receipts, images, and other pertinent data to it.</p>
+                                    <i class="zmdi zmdi-language-html5 zmdi-hc-4x brown-text"></i>
+                                    <h4 class="my-4 font-weight-bold">HTML</h4>
+                                    <p class="grey-text">The bare bone skelaton of a website, this necessity is important for content to be delivered.</p>
                                 </div>
                                 <div class="col-md-4 mb-1">
-                                    <i class="zmdi zmdi-language-css3 zmdi-hc-4x orange-text"></i>
-                                    <h4 class="my-4 font-weight-bold">Manage</h4>
-                                    <p class="grey-text">The app is capable of sorting through items and arranging it by categories.</p>
+                                    <i class="zmdi zmdi-language-css3 zmdi-hc-4x brown-text"></i>
+                                    <h4 class="my-4 font-weight-bold">CSS</h4>
+                                    <p class="grey-text">The styling language capable of transforming the layout of a page to the extent of your imagination.</p>
                                 </div>
                                 <div class="col-md-4 mb-1">
-                                    <i class="zmdi zmdi-language-javascript zmdi-hc-4x orange-text"></i>
-                                    <h4 class="my-4 font-weight-bold">Track</h4>
-                                    <p class="grey-text">Have the abilty to print tags for item(s) stored in boxes and geotag its location.</p>
+                                    <i class="zmdi zmdi-language-javascript zmdi-hc-4x brown-text"></i>
+                                    <h4 class="my-4 font-weight-bold">JavaScript</h4>
+                                    <p class="grey-text">The versatile language that makes a page interactive with limitless capabilities.</p>
                                 </div>
                             </div>
                         </section>
@@ -89,11 +90,11 @@
                                 <div class="col-lg-7 col-md-12">
                                     <form class="p-5">
                                         <div class="md-form form-sm">
-                                            <i class="zmdi zmdi-user prefix grey-text"></i>
+                                            <i class="zmdi zmdi-account prefix grey-text"></i>
                                             <input type="text" id="contactName" class="form-control form-control-sm" placeholder="Your Name">
                                         </div>
                                         <div class="md-form form-sm">
-                                            <i class="zmdi zmdi-envelope prefix grey-text"></i>
+                                            <i class="zmdi zmdi-email prefix grey-text"></i>
                                             <input type="text" id="contactEmail" class="form-control form-control-sm" placeholder="Your Email">
                                         </div>
                                         <div class="md-form form-sm">
@@ -101,22 +102,22 @@
                                             <input type="text" id="contactSubject" class="form-control form-control-sm" placeholder="Subject">
                                         </div>
                                         <div class="md-form form-sm">
-                                            <i class="zmdi zmdi-pencil prefix grey-text"></i>
+                                            <i class="zmdi zmdi-edit prefix grey-text"></i>
                                             <textarea id="contactMessage" class="md-textarea form-control form-control-sm" rows="3" placeholder="Your Message"></textarea>
                                         </div>
                                         <div class="text-center mt-4">
-                                            <button class="btn btn-primary">Send<i class="zmdi zmdi-paper-plane-o ml-1"></i>
+                                            <button class="btn btn-primary">Send <i class="zmdi zmdi-mail-send ml-1"></i>
                                             </button>
                                         </div>
                                     </form>
                                 </div>
                                 <div class="col-lg-5 col-md-12">
                                     <div class="row text-center">
-                                        <div class="col-lg-4 col-md-12 mb-3"><p><i class="zmdi zmdi-map zmdi-hc-1x mr-2 grey-text"></i>Houston, TX</p>
+                                        <div class="col-lg-4 col-md-12 mb-3"><p><i class="zmdi zmdi-linkedin-box zmdi-hc-1x mr-2 brown-text"></i>LinkedIn</p>
                                         </div>
-                                        <div class="col-lg-4 col-md-6 mb-3"><p><i class="zmdi zmdi-building zmdi-hc-1x mr-2 grey-text"></i>Mon - Fri, 8:00-5:00</p>
+                                        <div class="col-lg-4 col-md-6 mb-3"><p><i class="zmdi zmdi-github-box zmdi-hc-1x mr-2 brown-text"></i>GitHub</p>
                                         </div>
-                                        <div class="col-lg-4 col-md-6 mb-3"><p><i class="zmdi zmdi-phone zmdi-hc-1x mr-2 grey-text"></i>(713) 281-5551</p>
+                                        <div class="col-lg-4 col-md-6 mb-3"><p><i class="zmdi zmdi-instagram zmdi-hc-1x mr-2 brown-text"></i>Instagram</p>
                                         </div>
                                     </div>
                                     <div id="map-container" class="z-depth-1-half map-container mb-5" style="height: 400px"></div>
@@ -133,6 +134,7 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js" integrity="sha384-u/bQvRA/1bobcXlcEYpsEdFVK/vJs3+T+nXLsBYJthmdBuavHvAW6UsmqO2Gd/F9" crossorigin="anonymous"></script>
         <!-- MDB core JavaScript -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.5/js/mdb.min.js" integrity="sha256-IsnXQfMetjxrQkLrrhKx1vuUcEu8QF/IuAZVJAlOhwg=" crossorigin="anonymous"></script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-e0-x0xL8DqZ-R41NUPNuDouZgHXGWmw&callback=initMap"></script>
         <script src="asset/js/app.js"></script>
 
     </body>
