@@ -1,10 +1,54 @@
-html, body {
-    font-family: 'Roboto Mono', monospace;
-    font-style: normal;
-    font-weight: 400;
+html body main {
+    margin-top: 5%;
 }
 
-html, body, #intro {
+*,
+*::before,
+*::after {
+  box-sizing: border-box; }
+
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -ms-overflow-style: scrollbar;
+  -webkit-tap-highlight-color: transparent; }
+
+@-ms-viewport {
+  width: device-width; }
+
+article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
+  display: block; }
+
+body {
+  margin: 0;
+  font-size: 1rem;
+  font-family: 'Roboto Mono', monospace;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.428571429;
+  color: #404040;
+  text-align: left;
+  background-color: #EEEEEE; }
+
+[tabindex="-1"]:focus {
+  outline: 0 !important; }
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem; }
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem; }
+
+  html, body, #intro {
     height: 100%;
 }
 
@@ -21,16 +65,16 @@ html, body, #intro {
 }
 
 .top-nav-collapse {
-    background-color: #24355C;
+    background-color: #195FFF;
   }
   @media (max-width: 768px) {
     .navbar:not(.top-nav-collapse) {
-      background-color: #24355C;
+      background-color: #195FFF;
     }
   }
   @media (min-width: 800px) and (max-width: 850px) {
     .navbar:not(.top-nav-collapse) {
-      background-color: #24355C;
+      background-color: #195FFF;
     }
   }
 
@@ -41,3 +85,41 @@ html, body, #intro {
 	padding-top: 12px;
 	padding-bottom: 12px;
 }
+
+.bg-blue {
+    background-color: #195FFF;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto; }
+    @media (min-width: 576px) {
+      .container {
+        max-width: 540px; } }
+    @media (min-width: 768px) {
+      .container {
+        max-width: 720px; } }
+    @media (min-width: 992px) {
+      .container {
+        max-width: 960px; } }
+    @media (min-width: 1200px) {
+      .container {
+        max-width: 1140px; } }
+  
+  .container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto; }
+  
+  .row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px; }
